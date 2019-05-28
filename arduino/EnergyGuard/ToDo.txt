@@ -1,0 +1,20 @@
+- temperatura - zmienic na integer - wystarcza pe³ne stopnie
+- import export en. zmienic na integer
+- zmierzyc obci¹zenie dla grzalki 4.2 kW (pod³aczonej w gwiazde) - (kalibracja gralki 3 fazowej)
+- Cron - synchronizacja czasu ./synctime
+- w³¹cznie pompy 500l jesli jest du¿a produkcja PV i wysoka temp.w zbiorniku (Arduino)
+- zwiekszyæ temp. przegrzania zbiornika 500l na 90 st. (bimetal na zbiorniku 500l)
+- wy³¹czenie grzania 500l jeœli temp. na zbiorniku 300l przekroczy 80 st. (Arduino)
+
+
+Power Buffer v.2
+Rasp:
+- komunikacja zwrotna z rasp. do arduino
+- w³¹czanie pompy CWU jesli minê³o po³udnie (na 1h lub 2h)
+- nowa schema bazy danych ( kilka tabel)
+- skrypt procesujacy dane do wrzucania zbiorczych wyników do table EnergyDaily i EnargyMonthly
+- Cron - uruchamianie skryptu procesujacego dane
+
+	
+	
+

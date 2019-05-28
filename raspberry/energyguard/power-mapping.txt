@@ -1,0 +1,27 @@
+
+int PowerMappingToDuty(int PWM_L)
+
+{
+int PowerPercent;
+int PWMdutyInput = 0;
+
+PowerPercent = PWM_L / 20;
+
+if(PowerPercent < 20 )  PWMdutyInput = 0;
+if(PowerPercent >= 20 &&  PowerPercent < 30 )  PWMdutyInput = 2;
+if(PowerPercent >= 30 &&  PowerPercent < 40 )  PWMdutyInput = 4;
+if(PowerPercent >= 40 &&  PowerPercent < 50 )  PWMdutyInput = 8;
+if(PowerPercent >= 50 &&  PowerPercent < 60 )  PWMdutyInput = 15;
+if(PowerPercent >= 60 &&  PowerPercent < 70 )  PWMdutyInput = 26;
+if(PowerPercent >= 70 &&  PowerPercent < 80 )  PWMdutyInput = 47;
+if(PowerPercent >= 80 &&  PowerPercent < 90 )  PWMdutyInput = 82;
+if(PowerPercent >= 90 &&  PowerPercent < 100)  PWMdutyInput = 143;
+if(PowerPercent >= 100)  PWMdutyInput = 255;
+
+return PWMdutyInput;
+  
+ }
+  
+  
+  
+  

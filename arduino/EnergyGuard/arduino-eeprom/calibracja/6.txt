@@ -1,0 +1,378 @@
+3
+48
+Max Power values (L1, L2, L3): 
+2495 2113 2154 
+2483 2119 2149 
+2476 2120 2135 
+2475 2122 2147 
+2470 2118 2152 
+Pin reset: 9
+Pin reset: 11
+Pin reset: 13
+Intermediate values of power L1, L2, L3: 
+0 0 0 
+154 132 132 
+308 264 264 
+463 396 397 
+617 528 529 
+771 660 661 
+926 792 794 
+1080 924 926 
+1235 1056 1059 
+1389 1188 1191 
+1543 1320 1323 
+1698 1452 1456 
+1852 1584 1588 
+2006 1716 1720 
+-1934 1848 1853 
+254 254 0 254 1 254 2 x x x x x x x x x x x x x x  next 
+253 253 0 253 1 253 2 x x x x x x x x x x x x x x  next 
+252 252 0 252 1 252 2 x x x x x x x x x x x x x x  next 
+251 251 0 251 1 251 2 x x x x x x x x x x x x x x  next 
+250 250 0 250 1 250 2 x x x x x x x x x x x x x x  next 
+249 249 0 249 1 249 2 x x x x x x x x x x x x x x  next 
+248 248 0 248 1 248 2 x x x x x x x x x x x x x x  next 
+247 247 0 247 1 247 2 x x x x x x x x x x x x x x  next 
+246 246 0 246 1 246 2 x x x x x x x x x x x x x x  next 
+245 245 0 245 1 245 2 x x x x x x x x x x x x x x  next 
+244 244 0 244 1 244 2 x x x x x x x x x x x x x x  next 
+243 243 0 243 1 243 2 x x x x x x x x x x x x x x  next 
+242 242 0 242 1 242 2 x x x x x x x x x x x x x x  next 
+241 241 0 241 1 241 2 x x x x x x x x x x x x x x  next 
+240 240 0 240 1 240 2 x x x x x x x x x x x x x x  next 
+239 239 0 239 1 239 2 x x x x x x x x x x x x x x  next 
+238 238 0 238 1 238 2 x x x x x x x x x x x x x x  next 
+237 237 0 237 1 237 2 x x x x x x x x x x x x x x  next 
+236 236 0 236 1 236 2 x x x x x x x x x x x x x x  next 
+235 235 0 235 1 235 2 x x x x x x x x x x x x x x  next 
+234 234 0 234 1 234 2 x x x x x x x x x x x x x x  next 
+233 233 0 233 1 233 2 x x x x x x x x x x x x x x  next 
+232 232 0 232 1 232 2 x x x x x x x x x x x x x x  next 
+231 231 0 231 1 231 2 x x x x x x x x x x x x x x  next 
+230 230 0 230 1 230 2 x x x x x x x x x x x x x x  next 
+229 229 0 229 1 229 2 x x x x x x x x x x x x x x  next 
+228 228 0 228 1 228 2 x x x x x x x x x x x x x x  next 
+227 227 0 227 1 227 2 x x x x x x x x x x x x x x  next 
+226 226 0 226 1 226 2 x x x x x x x x x x x x x x  next 
+225 225 0 225 1 225 2 x x x x x x x x x x x x x x  next 
+224 224 0 224 1 224 2 x x x x x x x x x x x x x x  next 
+223 223 0 223 1 223 2 x x x x x x x x x x x x x x  next 
+222 222 0 222 1 222 2 x x x x x x x x x x x x x x  next 
+221 221 0 221 1 221 2 x x x x x x x x x x x x x x  next 
+220 220 0 220 1 220 2 x x x x x x x x x x x x x x  next 
+219 219 0 219 1 219 2 x x x x x x x x x x x x x x  next 
+218 218 0 218 1 218 2 x x x x x x x x x x x x x x  next 
+217 217 0 217 1 217 2 x x x x x x x x x x x x x x  next 
+216 216 0 216 1 216 2 x x x x x x x x x x x x x x  next 
+215 215 0 215 1 215 2 x x x x x x x x x x x x x x  next 
+214 214 0 214 1 214 2 x x x x x x x x x x x x x x  next 
+213 213 0 213 1 213 2 x x x x x x x x x x x x x x  next 
+212 212 0 212 1 212 2 x x x x x x x x x x x x x x  next 
+211 211 0 211 1 211 2 x x x x x x x x x x x x x x  next 
+210 210 0 210 1 210 2 x x x x x x x x x x x x x x  next 
+209 209 0 209 1 209 2 x x x x x x x x x x x x x x  next 
+208 208 0 208 1 208 2 x x x x x x x x x x x x x x  next 
+207 207 0 207 1 207 2 x x x x x x x x x x x x x x  next 
+206 206 0 206 1 206 2 x x x x x x x x x x x x x x  next 
+205 205 0 205 1 205 2 x x x x x x x x x x x x x x  next 
+204 204 0 204 1 204 2 x x x x x x x x x x x x x x  next 
+203 203 0 203 1 203 2 x x x x x x x x x x x x x x  next 
+202 202 0 202 1 202 2 x x x x x x x x x x x x x x  next 
+201 201 0 201 1 201 2 x x x x x x x x x x x x x x  next 
+200 200 0 200 1 200 2 x x x x x x x x x x x x x x  next 
+199 199 0 199 1 199 2 x x x x x x x x x x x x x x  next 
+198 198 0 198 1 198 2 x x x x x x x x x x x x x x  next 
+197 197 0 197 1 197 2 x x x x x x x x x x x x x x  next 
+196 196 0 196 1 196 2 x x x x x x x x x x x x x x  next 
+195 195 0 195 1 195 2 x x x x x x x x x x x x x x  next 
+194 194 0 194 1 194 2 x x x x x x x x x x x x x x  next 
+193 193 0 193 1 193 2 x x x x x x x x x x x x x x  next 
+192 192 0 192 1 192 2 x x x x x x x x x x x x x x  next 
+191 191 0 191 1 191 2 x x x x x x x x x x x x x x  next 
+190 190 0 190 1 190 2 x x x x x x x x x x x x x x  next 
+189 189 0 189 1 189 2 x x x x x x x x x x x x x x  next 
+188 188 0 188 1 188 2 x x x x x x x x x x x x x x  next 
+187 187 0 187 1 187 2 x x x x x x x x x x x x x x  next 
+186 186 0 186 1 186 2 x x x x x x x x x x x x x x  next 
+185 185 0 185 1 185 2 x x x x x x x x x x x x x x  next 
+184 184 0 184 1 184 2 x x x x x x x x x x x x x x  next 
+183 183 0 183 1 183 2 x x x x x x x x x x x x x x  next 
+182 182 0 182 1 182 2 x x x x x x x x x x x x x x  next 
+181 181 0 181 1 181 2 x x x x x x x x x x x x x x  next 
+180 180 0 180 1 180 2 x x x x x x x x x x x x x x  next 
+179 179 0 179 1 179 2 x x x x x x x x x x x x x x  next 
+178 178 0 178 1 178 2 x x x x x x x x x x x x x x  next 
+177 177 0 177 1 177 2 x x x x x x x x x x x x x x  next 
+176 176 0 176 1 176 2 x x x x x x x x x x x x x x  next 
+175 175 0 175 1 175 2 x x x x x x x x x x x x x x  next 
+174 174 0 174 1 174 2 x x x x x x x x x x x x x x  next 
+173 173 0 173 1 173 2 x x x x x x x x x x x x x x  next 
+172 172 0 172 1 172 2 x x x x x x x x x x x x x x  next 
+171 171 0 171 1 171 2 x x x x x x x x x x x x x x  next 
+170 170 0 170 1 170 2 x x x x x x x x x x x x x x  next 
+169 169 0 169 1 169 2 x x x x x x x x x x x x x x  next 
+168 168 0 168 1 168 2 x x x x x x x x x x x x x x  next 
+167 167 0 167 1 167 2 x x x x x x x x x x x x x x  next 
+166 166 0 166 1 166 2 x x x x x x x x x x x x x x  next 
+165 165 0 165 1 165 2 x x x x x x x x x x x x x x  next 
+164 164 0 164 1 164 2 x x x x x x x x x x x x x x  next 
+163 163 0 163 1 163 2 x x x x x x x x x x x x x x  next 
+162 162 0 162 1 162 2 x x x x x x x x x x x x x x  next 
+161 161 0 161 1 161 2 x x x x x x x x x x x x x x  next 
+160 160 0 160 1 160 2 x x x x x x x x x x x x x x  next 
+159 159 0 159 1 159 2 x x x x x x x x x x x x x x  next 
+158 158 0 158 1 158 2 x x x x x x x x x x x x x x  next 
+157 157 0 157 1 157 2 x x x x x x x x x x x x x x  next 
+156 156 0 156 1 156 2 x x x x x x x x x x x x x x  next 
+155 155 0 155 1 155 2 x x x x x x x x x x x x x x  next 
+154 154 0 154 1 154 2 x x x x x x x x x x x x x x  next 
+153 153 0 153 1 153 2 x x x x x x x x x x x x x x  next 
+152 152 0 152 1 152 2 x x x x x x x x x x x x x x  next 
+151 151 0 151 1 151 2 x x x x x x x x x x x x x x  next 
+150 150 0 150 1 150 2 x x x x x x x x x x x x x x  next 
+149 149 0 149 1 149 2 x x x x x x x x x x x x x x  next 
+148 148 0 148 1 148 2 x x x x x x x x x x x x x x  next 
+147 147 0 147 1 147 2 x x x x x x x x x x x x x x  next 
+146 146 0 146 1 146 2 x x x x x x x x x x x x x x  next 
+145 145 0 145 1 145 2 x x x x x x x x x x x x x x  next 
+144 144 0 144 1 144 2 x x x x x x x x x x x x x x  next 
+143 143 0 143 1 143 2 x x x x x x x x x x x x x x  next 
+142 142 0 142 1 142 2 x x x x x x x x x x x x x x  next 
+141 141 0 141 1 141 2 x x x x x x x x x x x x x x  next 
+140 140 0 140 1 140 2 x x x x x x x x x x x x x x  next 
+139 139 0 139 1 139 2 x x x x x x x x x x x x x x  next 
+138 138 0 138 1 138 2 x x x x x x x x x x x x x x  next 
+137 137 0 137 1 137 2 x x x x x x x x x x x x x x  next 
+136 136 0 136 1 136 2 x x x x x x x x x x x x x x  next 
+135 135 0 135 1 135 2 x x x x x x x x x x x x x x  next 
+134 134 0 134 1 134 2 x x x x x x x x x x x x x x  next 
+133 133 0 133 1 133 2 x x x x x x x x x x x x x x  next 
+132 132 0 132 1 132 2 x x x x x x x x x x x x x x  next 
+131 131 0 131 1 131 2 x x x x x x x x x x x x x x  next 
+130 130 0 130 1 130 2 x x x x x x x x x x x x x x  next 
+129 129 0 129 1 129 2 x x x x x x x x x x x x x x  next 
+128 128 0 128 1 128 2 x x x x x x x x x x x x x x  next 
+127 127 0 127 1 127 2 x x x x x x x x x x x x x x  next 
+126 126 0 126 1 126 2 x x x x x x x x x x x x x x  next 
+125 125 0 125 1 125 2 x x x x x x x x x x x x x x  next 
+124 124 0 124 1 124 2 x x x x x x x x x x x x x x  next 
+123 123 0 123 1 123 2 x x x x x x x x x x x x x x  next 
+122 122 0 122 1 122 2 x x x x x x x x x x x x x x  next 
+121 121 0 121 1 121 2 x x x x x x x x x x x x x x  next 
+120 120 0 120 1 120 2 x x x x x x x x x x x x x x  next 
+119 119 0 119 1 119 2 x x x x x x x x x x x x x x  next 
+118 118 0 118 1 118 2 x x x x x x x x x x x x x x  next 
+117 117 0 117 1 117 2 x x x x x x x x x x x x x x  next 
+116 116 0 116 1 116 2 x x x x x x x x x x x x x x  next 
+115 115 0 115 1 115 2 x x x x x x x x x x x x x x  next 
+114 114 0 114 1 114 2 x x x x x x x x x x x x x x  next 
+113 113 0 113 1 113 2 x x x x x x x x x x x x x x  next 
+112 112 0 112 1 112 2 x x x x x x x x x x x x x x  next 
+111 111 0 111 1 111 2 x x x x x x x x x x x x x x  next 
+110 110 0 110 1 110 2 x x x x x x x x x x x x x x  next 
+109 109 0 109 1 109 2 x x x x x x x x x x x x x x  next 
+108 108 0 108 1 108 2 x x x x x x x x x x x x x x  next 
+107 107 0 107 1 107 2 x x x x x x x x x x x x x x  next 
+106 106 0 106 1 106 2 x x x x x x x x x x x x x x  next 
+105 105 0 105 1 105 2 x x x x x x x x x x x x x x  next 
+104 104 0 104 1 104 2 x x x x x x x x x x x x x x  next 
+103 103 0 103 1 103 2 x x x x x x x x x x x x x x  next 
+102 102 0 102 1 102 2 x x x x x x x x x x x x x x  next 
+101 101 0 101 1 101 2 x x x x x x x x x x x x x x  next 
+100 100 0 100 1 100 2 x x x x x x x x x x x x x x  next 
+99 99 0 99 1 99 2 x x x x x x x x x x x x x x  next 
+98 98 0 98 1 98 2 x x x x x x x x x x x x x x  next 
+97 97 0 97 1 97 2 x x x x x x x x x x x x x x  next 
+96 96 0 96 1 96 2 x x x x x x x x x x x x x x  next 
+95 95 0 95 1 95 2 x x x x x x x x x x x x x x  next 
+94 94 0 94 1 94 2 x x x x x x x x x x x x x x  next 
+93 93 0 93 1 93 2 x x x x x x x x x x x x x x  next 
+92 92 0 92 1 92 2 x x x x x x x x x x x x x x  next 
+91 91 0 91 1 91 2 x x x x x x x x x x x x x x  next 
+90 90 0 90 1 90 2 x x x x x x x x x x x x x x  next 
+89 89 0 89 1 89 2 x x x x x x x x x x x x x x  next 
+88 88 0 88 1 88 2 x x x x x x x x x x x x x x  next 
+87 87 0 87 1 87 2 x x x x x x x x x x x x x x  next 
+86 86 0 86 1 86 2 x x x x x x x x x x x x x x  next 
+85 85 0 85 1 85 2 x x x x x x x x x x x x x x  next 
+84 84 0 84 1 84 2 x x x x x x x x x x x x x x  next 
+83 83 0 83 1 83 2 x x x x x x x x x x x x x x  next 
+82 82 0 82 1 82 2 x x x x x x x x x x x x x x  next 
+81 81 0 81 1 81 2 x x x x x x x x x x x x x x  next 
+80 80 0 80 1 80 2 x x x x x x x x x x x x x x  next 
+79 79 0 79 1 79 2 x x x x x x x x x x x x x x  next 
+78 78 0 78 1 78 2 x x x x x x x x x x x x x x  next 
+77 77 0 77 1 77 2 x x x x x x x x x x x x x x  next 
+76 76 0 76 1 76 2 x x x x x x x x x x x x x x  next 
+75 75 0 75 1 75 2 x x x x x x x x x x x x x x  next 
+74 74 0 74 1 74 2 x x x x x x x x x x x x x x  next 
+73 73 0 73 1 73 2 x x x x x x x x x x x x x x  next 
+72 72 0 72 1 72 2 x x x x x x x x x x x x x x  next 
+71 71 0 71 1 71 2 x x x x x x x x x x x x x x  next 
+70 70 0 70 1 70 2 x x x x x x x x x x x x x x  next 
+69 69 0 69 1 69 2 x x x x x x x x x x x x x x  next 
+68 68 0 68 1 68 2 x x x x x x x x x x x x x x  next 
+67 67 0 67 1 67 2 x x x x x x x x x x x x x x  next 
+66 66 0 66 1 66 2 x x x x x x x x x x x x x x  next 
+65 65 0 65 1 65 2 x x x x x x x x x x x x x x  next 
+64 64 0 64 1 64 2 x x x x x x x x x x x x x x  next 
+63 63 0 63 1 63 2 x x x x x x x x x x x x x x  next 
+62 62 0 62 1 62 2 x x x x x x x x x x x x x x  next 
+61 61 0 61 1 61 2 x x x x x x x x x x x x x x  next 
+60 60 0 60 1 60 2 x x x x x x x x x x x x x x  next 
+59 59 0 59 1 59 2 x x x x x x x x x x x x x x  next 
+58 58 0 58 1 58 2 x x x x x x x x x x x x x x  next 
+57 57 0 57 1 57 2 x x x x x x x x x x x x x x  next 
+56 56 0 56 1 56 2 x x x x x x x x x x x x x x  next 
+55 55 0 55 1 55 2 x x x x x x x x x x x x x x  next 
+54 54 0 54 1 54 2 x x x x x x x x x x x x x x  next 
+53 53 0 53 1 53 2 x x x x x x x x x x x x x x  next 
+52 52 0 52 1 52 2 x x x x x x x x x x x x x x  next 
+51 51 0 51 1 51 2 x x x x x x x x x x x x x x  next 
+50 50 0 50 1 50 2 x x x x x x x x x x x x x x  next 
+49 49 0 49 1 49 2 x x x x x x x x x x x x x x  next 
+48 48 0 48 1 48 2 x x x x x x x x x x x x x x  next 
+47 47 0 47 1 47 2 x x x x x x x x x x x x x x  next 
+46 46 0 46 1 46 2 x x x x x x x x x x x x x x  next 
+45 45 0 45 1 45 2 x x x x x x x x x x x x x x  next 
+44 44 0 44 1 44 2 x x x x x x x x x x x x x x  next 
+43 43 0 43 1 43 2 x x x x x x x x x x x x x x  next 
+42 42 0 42 1 42 2 x x x x x x x x x x x x x x  next 
+41 41 0 41 1 41 2 x x x x x x x x x x x x x x  next 
+40 40 0 40 1 40 2 x x x x x x x x x x x x x x  next 
+39 39 0 39 1 39 2 x x x x x x x x x x x x x x  next 
+38 38 0 38 1 38 2 x x x x x x x x x x x x x x  next 
+37 37 0 37 1 37 2 x x x x x x x x x x x x x x  next 
+36 36 0 36 1 36 2 x x x x x x x x x x x x x x  next 
+35 35 0 35 1 35 2 x x x x x x x x x x x x x x  next 
+34 34 0 34 1 34 2 x x x x x x x x x x x x x x  next 
+33 33 0 33 1 33 2 x x x x x x x x x x x x x x  next 
+32 32 0 32 1 32 2 x x x x x x x x x x x x x x  next 
+31 31 0 31 1 31 2 x x x x x x x x x x x x x x  next 
+30 30 0 30 1 30 2 x x x x x x x x x x x x x x  next 
+29 29 0 29 1 29 2 x x x x x x x x x x x x x x  next 
+28 28 0 28 1 28 2 x x x x x x x x x x x x x x  next 
+27 27 0 27 1 27 2 x x x x x x x x x x x x x x  next 
+26 26 0 26 1 26 2 x x x x x x x x x x x x x x  next 
+25 25 0 25 1 25 2 x x x x x x x x x x x x x x  next 
+24 24 0 24 1 24 2 x x x x x x x x x x x x x x  next 
+23 23 0 23 1 23 2 x x x x x x x x x x x x x x  next 
+22 22 0 22 1 22 2 x x x x x x x x x x x x x x  next 
+21 21 0 21 1 21 2 x x x x x x x x x x x x x x  next 
+20 20 0 20 1 20 2 x x x x x x x x x x x x x x  next 
+19 19 0 19 1 19 2 x x x x x x x x x x x x x x  next 
+18 18 0 18 1 18 2 x x x x x x x x x x x x x x  next 
+17 17 0 17 1 17 2 x x x x x x x x x x x x x x  next 
+16 16 0 16 1 16 2 x x x x x x x x x x x x x x  next 
+15 15 0 15 1 15 2 x x x x x x x x x x x x x x  next 
+14 14 0 14 1 14 2 x x x x x x x x x x x x x x  next 
+13 13 0 13 1 13 2 x x x x x x x x x x x x x x  next 
+12 12 0 12 1 12 2 x x x x x x x x x x x x x x  next 
+11 11 0 11 1 11 2 x x x x x x x x x x x x x x  next 
+10 10 0 10 1 10 2 x x x x x x x x x x x x x x  next 
+9 9 0 9 1 9 2 x x x x x x x x x x x x x x  next 
+8 8 0 8 1 8 2 x x x x x x x x x x x x x x  next 
+7 7 0 7 1 7 2 x x x x x x x x x x x x x x  next 
+6 6 0 6 1 6 2 x x x x x x x x x x x x x x  next 
+5 5 0 5 1 5 2 x x x x x x x x x x x x x x  next 
+4 4 0 4 1 4 2 x x x x x x x x x x x x x x  next 
+3 3 0 3 1 3 2 x x x x x x x x x x x x x x  next 
+2 2 0 2 1 2 2 x x x x x x x x x x x x x x  next 
+1 1 0 1 1 1 2 x x x x x x x x x x x x x x  next 
+Mesured L1 (PWM - Power): 0 - 0
+Mesured L1 (PWM - Power): 0 - 154
+Mesured L1 (PWM - Power): 0 - 308
+Mesured L1 (PWM - Power): 0 - 463
+Mesured L1 (PWM - Power): 0 - 617
+Mesured L1 (PWM - Power): 0 - 771
+Mesured L1 (PWM - Power): 0 - 926
+Mesured L1 (PWM - Power): 0 - 1080
+Mesured L1 (PWM - Power): 0 - 1235
+Mesured L1 (PWM - Power): 0 - 1389
+Mesured L1 (PWM - Power): 0 - 1543
+Mesured L1 (PWM - Power): 0 - 1698
+Mesured L1 (PWM - Power): 0 - 1852
+Mesured L1 (PWM - Power): 0 - 2006
+Mesured L1 (PWM - Power): 0 - -1934
+Mesured L1 (PWM - Power): 255 - 2470
+Mesured L2 (PWM - Power): 0 - 0
+Mesured L2 (PWM - Power): 0 - 132
+Mesured L2 (PWM - Power): 0 - 264
+Mesured L2 (PWM - Power): 0 - 396
+Mesured L2 (PWM - Power): 0 - 528
+Mesured L2 (PWM - Power): 0 - 660
+Mesured L2 (PWM - Power): 0 - 792
+Mesured L2 (PWM - Power): 0 - 924
+Mesured L2 (PWM - Power): 0 - 1056
+Mesured L2 (PWM - Power): 0 - 1188
+Mesured L2 (PWM - Power): 0 - 1320
+Mesured L2 (PWM - Power): 0 - 1452
+Mesured L2 (PWM - Power): 0 - 1584
+Mesured L2 (PWM - Power): 0 - 1716
+Mesured L2 (PWM - Power): 0 - 1848
+Mesured L2 (PWM - Power): 255 - 2113
+Mesured L3 (PWM - Power): 0 - 0
+Mesured L3 (PWM - Power): 0 - 132
+Mesured L3 (PWM - Power): 0 - 264
+Mesured L3 (PWM - Power): 0 - 397
+Mesured L3 (PWM - Power): 0 - 529
+Mesured L3 (PWM - Power): 0 - 661
+Mesured L3 (PWM - Power): 0 - 794
+Mesured L3 (PWM - Power): 0 - 926
+Mesured L3 (PWM - Power): 0 - 1059
+Mesured L3 (PWM - Power): 0 - 1191
+Mesured L3 (PWM - Power): 0 - 1323
+Mesured L3 (PWM - Power): 0 - 1456
+Mesured L3 (PWM - Power): 0 - 1588
+Mesured L3 (PWM - Power): 0 - 1720
+Mesured L3 (PWM - Power): 0 - 1853
+Mesured L3 (PWM - Power): 255 - 2118
+Read from EEPROM L1 (PWM - Power): 0 - 0
+Read from EEPROM L1 (PWM - Power): 0 - 154
+Read from EEPROM L1 (PWM - Power): 0 - 308
+Read from EEPROM L1 (PWM - Power): 0 - 463
+Read from EEPROM L1 (PWM - Power): 0 - 617
+Read from EEPROM L1 (PWM - Power): 0 - 771
+Read from EEPROM L1 (PWM - Power): 0 - 926
+Read from EEPROM L1 (PWM - Power): 0 - 1080
+Read from EEPROM L1 (PWM - Power): 0 - 1235
+Read from EEPROM L1 (PWM - Power): 0 - 1389
+Read from EEPROM L1 (PWM - Power): 0 - 1543
+Read from EEPROM L1 (PWM - Power): 0 - 1698
+Read from EEPROM L1 (PWM - Power): 0 - 1852
+Read from EEPROM L1 (PWM - Power): 0 - 2006
+Read from EEPROM L1 (PWM - Power): 0 - -1934
+Read from EEPROM L1 (PWM - Power): 255 - 2470
+Read from EEPROM L2 (PWM - Power): 0 - 0
+Read from EEPROM L2 (PWM - Power): 0 - 132
+Read from EEPROM L2 (PWM - Power): 0 - 264
+Read from EEPROM L2 (PWM - Power): 0 - 396
+Read from EEPROM L2 (PWM - Power): 0 - 528
+Read from EEPROM L2 (PWM - Power): 0 - 660
+Read from EEPROM L2 (PWM - Power): 0 - 792
+Read from EEPROM L2 (PWM - Power): 0 - 924
+Read from EEPROM L2 (PWM - Power): 0 - 1056
+Read from EEPROM L2 (PWM - Power): 0 - 1188
+Read from EEPROM L2 (PWM - Power): 0 - 1320
+Read from EEPROM L2 (PWM - Power): 0 - 1452
+Read from EEPROM L2 (PWM - Power): 0 - 1584
+Read from EEPROM L2 (PWM - Power): 0 - 1716
+Read from EEPROM L2 (PWM - Power): 0 - 1848
+Read from EEPROM L2 (PWM - Power): 255 - 2113
+Read from EEPROM L3 (PWM - Power): 0 - 0
+Read from EEPROM L3 (PWM - Power): 0 - 132
+Read from EEPROM L3 (PWM - Power): 0 - 264
+Read from EEPROM L3 (PWM - Power): 0 - 397
+Read from EEPROM L3 (PWM - Power): 0 - 529
+Read from EEPROM L3 (PWM - Power): 0 - 661
+Read from EEPROM L3 (PWM - Power): 0 - 794
+Read from EEPROM L3 (PWM - Power): 0 - 926
+Read from EEPROM L3 (PWM - Power): 0 - 1059
+Read from EEPROM L3 (PWM - Power): 0 - 1191
+Read from EEPROM L3 (PWM - Power): 0 - 1323
+Read from EEPROM L3 (PWM - Power): 0 - 1456
+Read from EEPROM L3 (PWM - Power): 0 - 1588
+Read from EEPROM L3 (PWM - Power): 0 - 1720
+Read from EEPROM L3 (PWM - Power): 0 - 1853
+Read from EEPROM L3 (PWM - Power): 255 - 2118
+Last EEPROM address: 144

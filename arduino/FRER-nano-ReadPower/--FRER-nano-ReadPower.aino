@@ -1,0 +1,175 @@
+#include <SimpleModbusMaster.h>
+
+/* 
+   Function 3  - READ_HOLDING_REGISTERS
+*/
+
+//////////////////// Port information ///////////////////
+#define baud 9600
+#define timeout 1000
+#define polling 100 // the scan rate bylo 200
+
+#define retry_count 10
+
+// used to toggle the receive/transmit pin on the driver
+#define TxEnablePin 2 
+
+#define LED 9
+
+// This is the easiest way to create new packets
+// Add as many as you want. TOTAL_NO_OF_PACKETS
+// is automatically updated.
+enum
+{
+  PACKET1,      // Apparent Power lines L1, L2 L3
+  PACKET2,      // Import energy
+  PACKET3,      // Export energy
+  TOTAL_NO_OF_PACKETS // leave this last entry
+};
+
+// Create an array of Packets to be configured
+Packet packets[TOTAL_NO_OF_PACKETS];
+
+packetPointer packet1 = &packets[PACKET1];
+packetPointer packet2 = &packets[PACKET2];
+packetPointer packet3 = &packets[PACKET3];
+
+// Data read from the arduino slave will be stored in this array
+// if the array is initialized to the packet.
+unsigned int readPower[6];
+unsigned int readImportEnergy[2];
+unsigned int readExportEnergy[2];
+
+long  PowerL1,
+      PowerL2,
+      PowerL3,
+      ImportEnergy,
+      ExportEnergy;
+
+float ImEn,
+      ExEn;
+
+void setup()
+{
+  // The modbus packet constructor function will initialize
+  // the individual packet with the assigned parameters. You can always do this
+  // explicitly by using struct pointers. The first parameter is the address of the
+  // packet in question. It is effectively the "this" parameter in Java that points to
+  // the address of the passed object. It has the following form:
+  // modbus_construct(packet, id, function, address, data, register array)
+  
+ 
+  // For functions 3 data is the number of registers
+
+  
+  // read registers  
+  modbus_construct(packet1, 1, READ_HOLDING_REGISTERS, 0x144, 6, readPower);   // Start address of Power register
+  modbus_construct(packet2, 1, READ_HOLDING_REGISTERS, 0x11A, 2, readImportEnergy);  // Start address of Import Energy register
+  modbus_construct(packet3, 1, READ_HOLDING_REGISTERS, 0x13E, 2, readExportEnergy);  // Start address of Export Energy register
+ 
+  
+      
+  ///// Starting serial for Leonardo
+  Serial.begin(9600);  
+  while (!Serial) { ; }  // For debugging
+    
+    
+    
+  /* Initialize communication settings:  */
+ 
+  modbus_configure(&Serial1, baud, SERIAL_8N2, timeout, polling, retry_count, TxEnablePin, packets, TOTAL_NO_OF_PACKETS);
+
+  pinMode(LED, HIGH);
+}
+
+
+
+
+
+void loop()
+{
+  modbus_update();
+  
+  if (Serial1.available())
+  {   
+
+    // Read parameter in 32 bit format
+
+    PowerL1 = (long) readPower[0] << 16 | (long) readPower[1];
+    PowerL2 = (long) readPower[2] << 16 | (long) readPower[3];
+    PowerL3 = (long) readPower[4] << 16 | (long) readPower[5];
+    
+    ImportEnergy = ((long) readImportEnergy[0] << 16 | (long) readImportEnergy[1]) * 10;
+    ExportEnergy = ((long) readExportEnergy[0] << 16 | (long) readExportEnergy[1]) * 10;
+  
+    ImEn = (float) ImportEnergy / 1000;   // Convert to float kWh
+    ExEn = (float) ExportEnergy / 1000;   // Convert to float kWh
+
+        
+    Serial.print("Power L1: ");
+    Serial.print(PowerL1);
+    Serial.println(" W");
+    Serial.print("Power L2: ");
+    Serial.print(PowerL2);
+    Serial.println(" W");
+    Serial.print("Power L3: ");
+    Serial.print(PowerL3);
+    Serial.println(" W");
+    
+    Serial.print("Imported Energy: ");
+    Serial.print(ImEn, 2);               // Print format: two digits after point e.g. 1.23 
+    Serial.println(" kWh");
+    Serial.print("Exported Energy: ");
+    Serial.print(ExEn, 2);
+    Serial.println(" kWh");
+    Serial.println();
+    
+    Serial.println("Power requests");
+    Serial.print("total requests:      ");
+    Serial.println(packet1->requests);
+    Serial.print("successful requests: ");
+    Serial.println(packet1->successful_requests);
+    Serial.print("failed requests:     ");
+    Serial.println(packet1->failed_requests);
+    Serial.print("exception requests:  ");
+    Serial.println(packet1->exception_errors);
+    Serial.println();
+    
+    Serial.println("Import Energy requests");
+    Serial.print("total requests:      ");
+    Serial.println(packet2->requests);
+    Serial.print("successful requests: ");
+    Serial.println(packet2->successful_requests);
+    Serial.print("failed requests:     ");
+    Serial.println(packet2->failed_requests);
+    Serial.print("exception requests:  ");
+    Serial.println(packet2->exception_errors);
+    Serial.println();
+    
+    Serial.println("Export Energy requests");
+    Serial.print("total requests:      ");
+    Serial.println(packet3->requests);
+    Serial.print("successful requests: ");
+    Serial.println(packet3->successful_requests);
+    Serial.print("failed requests:     ");
+    Serial.println(packet3->failed_requests);
+    Serial.print("exception requests:  ");
+    Serial.println(packet3->exception_errors);
+    
+    Serial.println();
+    Serial.println();
+  }  
+  
+  // analogWrite(LED, readRegs[0]>>2); // constrain adc value from the arduino slave to 255
+  
+  /* You can check or alter the internal counters of a specific packet like this:
+     packet1->requests;
+     packet1->successful_requests;
+     packet1->failed_requests;
+     packet1->exception_errors;
+     packet2->requests;
+     packet2->successful_requests;
+     packet2->failed_requests;
+     packet2->exception_errors;
+  */
+}

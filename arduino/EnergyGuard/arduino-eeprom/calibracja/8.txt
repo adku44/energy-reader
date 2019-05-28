@@ -1,0 +1,380 @@
+Base power L1, L2, L3: 
+723 236 154
+ 
+ 
+Heater On, Max Power values (L1, L2, L3): 
+2753 2017 2752 
+2759 2019 2751 
+2768 2018 2759 
+2789 2023 2179 
+2773 2022 2181 
+Pin reset: 9
+Pin reset: 11
+Pin reset: 13
+Intermediate values of power L1, L2, L3: 
+0 0 0 
+172 126 126 
+344 252 252 
+516 378 379 
+688 504 505 
+860 630 631 
+1032 756 758 
+1204 882 884 
+1376 1008 1011 
+1548 1134 1137 
+1720 1260 1263 
+1892 1386 1390 
+-2031 1512 1516 
+-1859 1638 1642 
+-1687 1764 1769 
+254  x2780 x2018 x2170 next 
+253  x2794 x2018 x2172 next 
+252  x2788 x2015 x2178 next 
+251  x2790 x1999 x2174 next 
+250  x2790 x2003 x2185 next 
+249  x2782 x1968 x2213 next 
+248  x2772 x1967 x2213 next 
+247  x2786 x1953 x2210 next 
+246  x2762 x1952 x2208 next 
+245  x2766 x1959 x2214 next 
+244  x2732 x1949 x2221 next 
+243  x2739 x1950 x2221 next 
+242  x2741 x1907 x2171 next 
+241  x2720 x1891 x2183 next 
+240  x2706 x1873 x2166 next 
+239  x2694 x1873 x2165 next 
+238  x2727 x1854 x2168 next 
+237  x2704 x1859 x2153 next 
+236  x2718 x1856 x2161 next 
+235  x2626 x1805 x2160 next 
+234  x2634 x1806 x2169 next 
+233  x2608 x1763 x2173 next 
+232  x2612 x1742 x2215 next 
+231  x2610 x1750 x2162 next 
+230  x2602 x1741 x2185 next 
+229  x2616 x1738 x2152 next 
+228  x2593 x1728 x2169 next 
+227  x2587 x1722 x2176 next 
+226  x2548 x1671 x2157 next 
+225  x2551 x1667 x2156 next 
+224  x2583 x1624 x2192 next 
+223  x2573 x1621 x2170 next 
+222  x2510 x1623 x2215 next 
+221  x2509 x1617 x2161 next 
+220  x2535 x1585 x2164 next 
+219  x2540 x1585 x2167 next 
+218  x2458 x1532 x2151 next 
+217  x2465 x1528 x2165 next 
+216  x2474 x1507 x2169 next 
+215  x2431 x1482 x2149 next 
+214  x2428 x1492 x2162 next 
+213  x2409 x1463 x2137 next 
+212  x2396 x1464 x2138 next 
+211  x2402 x1437 x2128 next 
+210  x2395 x1404 x2148 next 
+209  x2444 x1374 x2133 next 
+208  x2421 x1371 x2131 next 
+207  x2418 x1369 x2127 next 
+206  x2318 x1327 x2105 next 
+205  x2309 x1329 x2121 next 
+204  x2382 x1299 x2094 next 
+203  x2249 x1267 x2079 next 
+202  x2195 x1240 x2077 next 
+201  x2194 x1240 x2076 next 
+200  x2204 x1208 x2032 next 
+199  x2202 x1207 x2031 next 
+198  x2191 x1180 x2031 next 
+197  x2160 x1122 x2034 next 
+196  x2160 x1121 x2033 next 
+195  x2116 x1121 x2027 next 
+194  x2106 x1114 x2007 next 
+193  x2091 x1107 x1999 next 
+192  x2092 x1083 x2001 next 
+191  x2072 x1038 x1991 next 
+190  x2075 x1038 x2011 next 
+189  x2007 x992 x2572 next 
+188  x1983 x984 x2565 next 
+187  x1976 x982 x2516 next 
+186  x1980 x974 x2538 next 
+185  x1949 x944 x1955 next 
+184  x1952 x945 x1965 next 
+183  x1900 x886 x1907 next 
+182  x1907 x885 x1907 next 
+181  x1873 x867 x1873 next 
+180  x1853 x860 x1867 next 
+179  x1852 x858 x1836 next 
+178  x1818 x778 x1885 next 
+177  x1824 x777 x1860 next 
+176  x1795 x753 x1871 next 
+175  x1768 x742 x1837 next 
+174  x1726 x691 x1768 next 
+173  x1703 x690 x1746 next 
+172  x1709 x688 x1756 next 
+171  x1673 x656 x1760 next 
+170  x1608 x626 x1713 next 
+169  x1588 x606 x1716 next 
+168  x1584 x584 x1651 next 
+167  x1566 x579 x1646 next 
+166  x1556 x573 x1643 next 
+165  x1516 x582 x1598 next 
+164  x1515 x583 x1599 next 
+163  x1538 x566 x1576 next 
+162  x1479 x535 x1579 next 
+161  x1464 x507 x1541 next 
+160  x1414 x489 x1560 next 
+159  x1416 x490 x1519 next 
+158  x1402 x493 x1517 next 
+157  x1408 x490 x1504 next 
+156  x1383 x473 x1495 next 
+155  x1366 x458 x1471 next 
+154  x1406 x410 x1416 next 
+153  x1398 x411 x1416 next 
+152  x1406 x411 x1417 next 
+151  x1384 x409 x1404 next 
+150  x1384 x409 x1404 next 
+149  x1384 x409 x1404 next 
+148  x1384 x409 x1404 next 
+147  x1384 x409 x1404 next 
+146  x1174 x349 x1253 next 
+145  x1174 x349 x1253 next 
+144  x1174 x349 x1253 next 
+143  x1174 x349 x1253 next 
+142  x1092 x335 x1184 next 
+141  x1091 x337 x1156 next 
+140  x1089 x329 x1184 next 
+139  x1121 x315 x1117 next 
+138  x1056 x306 x1043 next 
+137  x1052 x305 x1058 next 
+136  x1087 x292 x1046 next 
+135  x1040 x293 x1075 next 
+134  x986 x292 x972 next 
+133  x982 x293 x929 next 
+132  x982 x293 x929 next 
+131  x982 x293 x929 next 
+130  x982 x293 x929 next 
+129  x952 x266 x902 next 
+128  x945 x256 x863 next 
+127  x928 x251 x820 next 
+126  x928 x251 x820 next 
+125  x928 x251 x820 next 
+124  x928 x251 x820 next 
+123  x928 x251 x820 next 
+122  x928 x251 x820 next 
+121  x928 x251 x820 next 
+120  x928 x251 x820 next 
+119  x928 x251 x820 next 
+118  x928 x251 x820 next 
+117  x928 x251 x820 next 
+116  x928 x251 x820 next 
+115  x928 x251 x820 next 
+114  x928 x251 x820 next 
+113  x928 x251 x820 next 
+112  x928 x251 x820 next 
+111  x928 x251 x820 next 
+110  x928 x251 x820 next 
+109  x928 x251 x820 next 
+108  x847 x206 x502 next 
+107  x849 x203 x486 next 
+106  x825 x205 x483 next 
+105  x847 x202 x467 next 
+104  x803 x195 x410 next 
+103  x803 x195 x408 next 
+102  x795 x195 x409 next 
+101  x789 x193 x405 next 
+100  x784 x193 x405 next 
+99  x799 x192 x370 next 
+98  x792 x192 x379 next 
+97  x739 x194 x335 next 
+96  x745 x194 x335 next 
+95  x784 x195 x340 next 
+94  x791 x194 x367 next 
+93  x802 x190 x336 next 
+92  x816 x189 x313 next 
+91  x797 x185 x283 next 
+90  x791 x184 x277 next 
+89  x786 x187 x277 next 
+88  x798 x186 x275 next 
+87  x798 x185 x280 next 
+86  x779 x187 x279 next 
+85  x761 x183 x249 next 
+84  x763 x182 x256 next 
+83  x751 x187 x241 next 
+82  x739 x186 x224 next 
+81  x741 x185 x241 next 
+80  x766 x187 x239 next 
+79  x760 x187 x264 next 
+78  x773 x184 x214 next 
+77  x766 x184 x210 next 
+76  x732 x183 x203 next 
+75  x751 x189 x201 next 
+74  x738 x188 x212 next 
+73  x737 x188 x209 next 
+72  x741 x188 x211 next 
+71  x761 x186 x210 next 
+70  x744 x184 x194 next 
+69  x751 x183 x186 next 
+68  x718 x184 x191 next 
+67  x728 x186 x180 next 
+66  x724 x187 x175 next 
+65  x740 x187 x203 next 
+64  x733 x186 x183 next 
+63  x727 x185 x213 next 
+62  x730 x187 x172 next 
+61  x730 x185 x186 next 
+60  x734 x183 x196 next 
+59  x728 x183 x182 next 
+58  x720 x183 x179 next 
+57  x722 x184 x181 next 
+56  x719 x184 x188 next 
+55  x714 x185 x185 next 
+54  x716 x183 x183 next 
+53  x713 x185 x163 next 
+52  x743 x184 x164 next 
+51  x728 x186 x166 next 
+50  x748 x185 x173 next 
+49  x743 x183 x159 next 
+48  x724 x186 x769 next 
+47  x730 x183 x784 next 
+46  x721 x185 x772 next 
+45  x708 x185 x804 next 
+44  x725 x183 x754 next 
+43  x718 x186 x772 next 
+42  x719 x183 x162 next 
+41  x736 x183 x162 next 
+40  x732 x185 x147 next 
+39  x722 x183 x163 next 
+38  x722 x183 x163 next 
+37  x715 x248 x167 next 
+36  x736 x235 x159 next 
+35  x711 x237 x157 next 
+34  x716 x234 x166 next 
+33  x749 x235 x158 next 
+32  x756 x234 x159 next 
+31  x731 x237 x164 next 
+30  x748 x237 x195 next 
+29  x755 x236 x165 next 
+28  x747 x235 x169 next 
+27  x738 x235 x184 next 
+26  x728 x236 x165 next 
+25  x737 x235 x153 next 
+24  x722 x236 x168 next 
+23  x743 x237 x149 next 
+22  x731 x237 x161 next 
+21  x732 x237 x162 next 
+20  x738 x239 x157 next 
+19  x532 x237 x164 next 
+18  x530 x237 x153 next 
+17  x533 x236 x167 next 
+16  x535 x237 x189 next 
+15  x526 x240 x161 next 
+14  x533 x239 x162 next 
+13  x533 x239 x162 next 
+12  x531 x239 x164 next 
+11  x528 x239 x111 next 
+10  x529 x239 x103 next 
+9  x534 x238 x104 next 
+8  x533 x239 x83 next 
+7  x539 x240 x95 next 
+6  x532 x240 x111 next 
+5  x533 x240 x89 next 
+4  x530 x240 x91 next 
+3  x531 x240 x97 next 
+2  x527 x241 x77 next 
+1  x533 x242 x95 next 
+Mesured L1 (PWM - Power): 0 - 0
+Mesured L1 (PWM - Power): 0 - 172
+Mesured L1 (PWM - Power): 0 - 344
+Mesured L1 (PWM - Power): 0 - 516
+Mesured L1 (PWM - Power): 0 - 688
+Mesured L1 (PWM - Power): 0 - 860
+Mesured L1 (PWM - Power): 0 - 1032
+Mesured L1 (PWM - Power): 0 - 1204
+Mesured L1 (PWM - Power): 0 - 1376
+Mesured L1 (PWM - Power): 0 - 1548
+Mesured L1 (PWM - Power): 0 - 1720
+Mesured L1 (PWM - Power): 0 - 1892
+Mesured L1 (PWM - Power): 0 - -2031
+Mesured L1 (PWM - Power): 0 - -1859
+Mesured L1 (PWM - Power): 0 - -1687
+Mesured L1 (PWM - Power): 255 - 2753
+Mesured L2 (PWM - Power): 0 - 0
+Mesured L2 (PWM - Power): 0 - 126
+Mesured L2 (PWM - Power): 0 - 252
+Mesured L2 (PWM - Power): 0 - 378
+Mesured L2 (PWM - Power): 0 - 504
+Mesured L2 (PWM - Power): 0 - 630
+Mesured L2 (PWM - Power): 0 - 756
+Mesured L2 (PWM - Power): 0 - 882
+Mesured L2 (PWM - Power): 0 - 1008
+Mesured L2 (PWM - Power): 0 - 1134
+Mesured L2 (PWM - Power): 0 - 1260
+Mesured L2 (PWM - Power): 0 - 1386
+Mesured L2 (PWM - Power): 0 - 1512
+Mesured L2 (PWM - Power): 0 - 1638
+Mesured L2 (PWM - Power): 0 - 1764
+Mesured L2 (PWM - Power): 255 - 2017
+Mesured L3 (PWM - Power): 0 - 0
+Mesured L3 (PWM - Power): 0 - 126
+Mesured L3 (PWM - Power): 0 - 252
+Mesured L3 (PWM - Power): 0 - 379
+Mesured L3 (PWM - Power): 0 - 505
+Mesured L3 (PWM - Power): 0 - 631
+Mesured L3 (PWM - Power): 0 - 758
+Mesured L3 (PWM - Power): 0 - 884
+Mesured L3 (PWM - Power): 0 - 1011
+Mesured L3 (PWM - Power): 0 - 1137
+Mesured L3 (PWM - Power): 0 - 1263
+Mesured L3 (PWM - Power): 0 - 1390
+Mesured L3 (PWM - Power): 0 - 1516
+Mesured L3 (PWM - Power): 0 - 1642
+Mesured L3 (PWM - Power): 0 - 1769
+Mesured L3 (PWM - Power): 255 - 2022
+Read from EEPROM L1 (PWM - Power): 0 - 0
+Read from EEPROM L1 (PWM - Power): 0 - 172
+Read from EEPROM L1 (PWM - Power): 0 - 344
+Read from EEPROM L1 (PWM - Power): 0 - 516
+Read from EEPROM L1 (PWM - Power): 0 - 688
+Read from EEPROM L1 (PWM - Power): 0 - 860
+Read from EEPROM L1 (PWM - Power): 0 - 1032
+Read from EEPROM L1 (PWM - Power): 0 - 1204
+Read from EEPROM L1 (PWM - Power): 0 - 1376
+Read from EEPROM L1 (PWM - Power): 0 - 1548
+Read from EEPROM L1 (PWM - Power): 0 - 1720
+Read from EEPROM L1 (PWM - Power): 0 - 1892
+Read from EEPROM L1 (PWM - Power): 0 - -2031
+Read from EEPROM L1 (PWM - Power): 0 - -1859
+Read from EEPROM L1 (PWM - Power): 0 - -1687
+Read from EEPROM L1 (PWM - Power): 255 - 2753
+Read from EEPROM L2 (PWM - Power): 0 - 0
+Read from EEPROM L2 (PWM - Power): 0 - 126
+Read from EEPROM L2 (PWM - Power): 0 - 252
+Read from EEPROM L2 (PWM - Power): 0 - 378
+Read from EEPROM L2 (PWM - Power): 0 - 504
+Read from EEPROM L2 (PWM - Power): 0 - 630
+Read from EEPROM L2 (PWM - Power): 0 - 756
+Read from EEPROM L2 (PWM - Power): 0 - 882
+Read from EEPROM L2 (PWM - Power): 0 - 1008
+Read from EEPROM L2 (PWM - Power): 0 - 1134
+Read from EEPROM L2 (PWM - Power): 0 - 1260
+Read from EEPROM L2 (PWM - Power): 0 - 1386
+Read from EEPROM L2 (PWM - Power): 0 - 1512
+Read from EEPROM L2 (PWM - Power): 0 - 1638
+Read from EEPROM L2 (PWM - Power): 0 - 1764
+Read from EEPROM L2 (PWM - Power): 255 - 2017
+Read from EEPROM L3 (PWM - Power): 0 - 0
+Read from EEPROM L3 (PWM - Power): 0 - 126
+Read from EEPROM L3 (PWM - Power): 0 - 252
+Read from EEPROM L3 (PWM - Power): 0 - 379
+Read from EEPROM L3 (PWM - Power): 0 - 505
+Read from EEPROM L3 (PWM - Power): 0 - 631
+Read from EEPROM L3 (PWM - Power): 0 - 758
+Read from EEPROM L3 (PWM - Power): 0 - 884
+Read from EEPROM L3 (PWM - Power): 0 - 1011
+Read from EEPROM L3 (PWM - Power): 0 - 1137
+Read from EEPROM L3 (PWM - Power): 0 - 1263
+Read from EEPROM L3 (PWM - Power): 0 - 1390
+Read from EEPROM L3 (PWM - Power): 0 - 1516
+Read from EEPROM L3 (PWM - Power): 0 - 1642
+Read from EEPROM L3 (PWM - Power): 0 - 1769
+Read from EEPROM L3 (PWM - Power): 255 - 2022
+Last EEPROM address: 144

@@ -1,0 +1,73 @@
+3
+48
+Max Power values (L1, L2, L3): 
+-10 1813 2038 
+-10 1823 2039 
+-10 1812 2041 
+-10 1827 1959 
+-10 1826 1961 
+Intermediate values of power L1, L2, L3: 
+0 0 0 
+0 113 114 
+-1 226 228 
+-1 339 342 
+-2 453 456 
+-3 566 570 
+-3 679 684 
+-4 792 798 
+-5 906 913 
+-5 1019 1027 
+-6 1132 1141 
+-6 1245 1255 
+-7 1359 1369 
+-8 1472 1483 
+-8 1585 1597 
+Read from EEPROM L1 (PWM - Power): 0 - 0
+Read from EEPROM L1 (PWM - Power): 0 - 0
+Read from EEPROM L1 (PWM - Power): 0 - -1
+Read from EEPROM L1 (PWM - Power): 0 - -1
+Read from EEPROM L1 (PWM - Power): 0 - -2
+Read from EEPROM L1 (PWM - Power): 0 - -3
+Read from EEPROM L1 (PWM - Power): 0 - -3
+Read from EEPROM L1 (PWM - Power): 0 - -4
+Read from EEPROM L1 (PWM - Power): 0 - -5
+Read from EEPROM L1 (PWM - Power): 0 - -5
+Read from EEPROM L1 (PWM - Power): 0 - -6
+Read from EEPROM L1 (PWM - Power): 0 - -6
+Read from EEPROM L1 (PWM - Power): 0 - -7
+Read from EEPROM L1 (PWM - Power): 0 - -8
+Read from EEPROM L1 (PWM - Power): 0 - -8
+Read from EEPROM L1 (PWM - Power): 255 - -10
+Read from EEPROM L2 (PWM - Power): 0 - 0
+Read from EEPROM L2 (PWM - Power): 0 - 113
+Read from EEPROM L2 (PWM - Power): 0 - 226
+Read from EEPROM L2 (PWM - Power): 0 - 339
+Read from EEPROM L2 (PWM - Power): 0 - 453
+Read from EEPROM L2 (PWM - Power): 0 - 566
+Read from EEPROM L2 (PWM - Power): 0 - 679
+Read from EEPROM L2 (PWM - Power): 0 - 792
+Read from EEPROM L2 (PWM - Power): 0 - 906
+Read from EEPROM L2 (PWM - Power): 0 - 1019
+Read from EEPROM L2 (PWM - Power): 0 - 1132
+Read from EEPROM L2 (PWM - Power): 0 - 1245
+Read from EEPROM L2 (PWM - Power): 0 - 1359
+Read from EEPROM L2 (PWM - Power): 0 - 1472
+Read from EEPROM L2 (PWM - Power): 0 - 1585
+Read from EEPROM L2 (PWM - Power): 255 - 1812
+Read from EEPROM L3 (PWM - Power): 0 - 0
+Read from EEPROM L3 (PWM - Power): 0 - 114
+Read from EEPROM L3 (PWM - Power): 0 - 228
+Read from EEPROM L3 (PWM - Power): 0 - 342
+Read from EEPROM L3 (PWM - Power): 0 - 456
+Read from EEPROM L3 (PWM - Power): 0 - 570
+Read from EEPROM L3 (PWM - Power): 0 - 684
+Read from EEPROM L3 (PWM - Power): 0 - 798
+Read from EEPROM L3 (PWM - Power): 0 - 913
+Read from EEPROM L3 (PWM - Power): 0 - 1027
+Read from EEPROM L3 (PWM - Power): 0 - 1141
+Read from EEPROM L3 (PWM - Power): 0 - 1255
+Read from EEPROM L3 (PWM - Power): 0 - 1369
+Read from EEPROM L3 (PWM - Power): 0 - 1483
+Read from EEPROM L3 (PWM - Power): 0 - 1597
+Read from EEPROM L3 (PWM - Power): 255 - 1826
+Last EEPROM address: 144

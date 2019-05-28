@@ -1,0 +1,80 @@
+ int PowerMappingToDutyL1(int PWM_L)
+
+ {
+     
+     int PWMdutyInput = 0;
+     
+     if(PWM_L < 386 )  PWMdutyInput = 0;
+     if(PWM_L >= 386   &&  PWM_L < 556   )  PWMdutyInput = 150;           // 20 % of power
+     if(PWM_L >= 556   &&  PWM_L < 714   )  PWMdutyInput = 160;           // 29 % of power
+     if(PWM_L >= 714   &&  PWM_L < 931   )  PWMdutyInput = 170;           // 37 % of power
+     if(PWM_L >= 931   &&  PWM_L < 1103 )  PWMdutyInput = 180;            // 48 % of power 
+     if(PWM_L >= 1103 &&  PWM_L < 1271  )  PWMdutyInput = 190;           // 57 % of power
+     if(PWM_L >= 1271 &&  PWM_L < 1481  )  PWMdutyInput =  200 ;         // 65 % of power
+     if(PWM_L >= 1481 &&  PWM_L < 1617  )  PWMdutyInput =  210 ;         // 76 % of power
+     if(PWM_L >= 1617 &&  PWM_L < 1778  )  PWMdutyInput =  220 ;         // 83 % of power
+     if(PWM_L >= 1778 &&  PWM_L < 1959  )  PWMdutyInput =  230 ;         // 91 % of power
+     if(PWM_L >= 1959)  PWMdutyInput = 255;                                         // 100 % of power 
+     
+     return PWMdutyInput;
+ }
+ 
+ 
+ int PowerMappingToDutyL2(int PWM_L)
+
+ {
+
+     int PWMdutyInput = 0;
+     
+     if(PWM_L < 438 )  PWMdutyInput = 0;
+     if(PWM_L >= 438   &&  PWM_L < 593   )  PWMdutyInput = 100;             // 20 % of power
+     if(PWM_L >= 593   &&  PWM_L < 822   )  PWMdutyInput = 110;             // 27 % of power
+     if(PWM_L >= 822   &&  PWM_L < 1017 )  PWMdutyInput = 120;             // 38 % of power 
+     if(PWM_L >= 1017 &&  PWM_L < 1230 )   PWMdutyInput = 130;            // 47 % of power
+     if(PWM_L >= 1230 &&  PWM_L < 1417  )  PWMdutyInput = 140;            // 57 % of power
+     if(PWM_L >= 1417 &&  PWM_L < 1605  )  PWMdutyInput = 150;            // 66 % of power
+     if(PWM_L >= 1605 &&  PWM_L < 1781  )  PWMdutyInput = 160;            // 74 % of power
+     if(PWM_L >= 1781 &&  PWM_L < 1896  )  PWMdutyInput = 170;            // 82 % of power
+     if(PWM_L >= 1896 &&  PWM_L < 2061  )  PWMdutyInput = 180;            // 88 % of power
+     if(PWM_L >= 2061 &&  PWM_L < 2160  )  PWMdutyInput = 200;            // 95 % of power
+     if(PWM_L >= 2160)  PWMdutyInput = 255;                                          //100 % of power
+     
+     return PWMdutyInput; 
+ }
+
+ 
+ 
+ int PowerMappingToDutyL3(int PWM_L)
+
+ {
+
+     int PWMdutyInput = 0;
+     
+     if(PWM_L <   322 )  PWMdutyInput = 0;
+     if(PWM_L >= 322  &&  PWM_L < 434  )  PWMdutyInput = 150;            // 18 % of power
+     if(PWM_L >= 434  &&  PWM_L < 557  )  PWMdutyInput = 160;            // 24 % of power
+     if(PWM_L >= 557  &&  PWM_L < 782  )  PWMdutyInput = 170;            // 30 % of power 
+     if(PWM_L >= 782  &&  PWM_L < 922  )  PWMdutyInput = 180;            // 43 % of power
+     if(PWM_L >= 922  &&  PWM_L < 1112 ) PWMdutyInput =  190             // 50 % of power
+     if(PWM_L >= 1112 &&  PWM_L < 1305 ) PWMdutyInput = 200;            // 60 % of power
+     if(PWM_L >= 1305 &&  PWM_L < 1428 ) PWMdutyInput = 210;            // 71 % of power
+     if(PWM_L >= 1428 &&  PWM_L < 1610 ) PWMdutyInput = 220;            // 78 % of power
+     if(PWM_L >= 1610 &&  PWM_L < 1761 ) PWMdutyInput = 230;            // 88 % of power
+     if(PWM_L >= 1761 &&  PWM_L < 1840 ) PWMdutyInput = 240;            // 96 % of power
+     if(PWM_L >= 1840)  PWMdutyInput = 255;                                        //100 % of power
+     
+     return PWMdutyInput; 
+ }
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+

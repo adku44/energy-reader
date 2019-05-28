@@ -1,0 +1,190 @@
+--- mapowanie rasbery -> arduino
+
+// Sensor' addreses 
+//1	28-0000052cecda   wyj. CO - Pompa Ciep³a	Device Address: 28DAEC2C050000B9
+//2	28-0000052cee11	  wyj. CWU - Pompa Ciep³a	Device Address: 2811EE2C0500005D
+//3	28-0000052dbd7f   buffor 300l - góra		Device Address: 287FBD2D050000D9
+//4	28-0000052e0139	  wyj. Kaloryfery			Device Address: 2839012E050000F8
+//5	28-0000052ce62e	  wej. Kaloryfery			Device Address: 282EE62C050000AA
+//6	28-0000052dcfd7	  CWU czerwony 300l - góra	Device Address: 28D7CF2D050000CA
+//7	28-0000052df474	  CWU czerwony 300l - dó³	Device Address: 2874F42D0500003B
+//8	28-0000052d5459	  CO 500l  - dó³ 			Device Address: 2859542D050000F4
+//9	28-0000052ceeea	  CO 500l  - góra			Device Address: 28EAEE2C050000D7
+/10 28-0000052cfe51	  temperatura zewnetrzna	Device Address: 2851FE2C05000054
+
+-----------------------------------------------
+
+-- wolne czujki ---
+
+Dallas Temperature IC Control Library Demo
+Locating devices...Found 2 devices.
+Parasite power is: OFF
+Device 0 Address: 2885931B0600009B
+Device 1 Address: 28651C1C06000090
+Device 0 Resolution: 9
+Device 1 Resolution: 9
+Requesting temperatures...DONE
+Device Address: 2885931B0600009B Temp C: 23.50 Temp F: 74.30
+Device Address: 28651C1C06000090 Temp C: 23.00 Temp F: 73.40
+Requesting temperatures...DONE
+
+
+--- Piwnica ----
+
+
+Dallas Temperature IC Control Library Demo
+Locating devices...Found 10 devices.
+Parasite power is: OFF
+Device 0 Address: 2874F42D0500003B
+Device 1 Address: 28EAEE2C050000D7
+Device 2 Address: 28DAEC2C050000B9
+Device 3 Address: 282EE62C050000AA
+Device 4 Address: 2811EE2C0500005D
+Device 5 Address: 2851FE2C05000054
+Device 6 Address: 2859542D050000F4
+Device 7 Address: 2839012E050000F8
+Device 8 Address: 28D7CF2D050000CA
+Device 9 Address: 287FBD2D050000D9
+Device 0 Resolution: 9
+Device 1 Resolution: 9
+Device 2 Resolution: 9
+Device 3 Resolution: 9
+Device 4 Resolution: 9
+Device 5 Resolution: 9
+Device 6 Resolution: 9
+Device 7 Resolution: 9
+Device 8 Resolution: 9
+Device 9 Resolution: 9
+Requesting temperatures...DONE
+Device Address: 2874F42D0500003B Temp C: 14.50   
+Device Address: 28EAEE2C050000D7 Temp C: 17.50
+Device Address: 28DAEC2C050000B9 Temp C: 34.00
+Device Address: 282EE62C050000AA Temp C: 32.50
+Device Address: 2811EE2C0500005D Temp C: 42.50
+Device Address: 2851FE2C05000054 Temp C: 1.00
+Device Address: 2859542D050000F4 Temp C: 19.00
+Device Address: 2839012E050000F8 Temp C: 34.50
+Device Address: 28D7CF2D050000CA Temp C: 36.00
+Device Address: 287FBD2D050000D9 Temp C: 35.50
+Requesting temperatures...DONE
+Device Address: 2874F42D0500003B Temp C: 14.50
+Device Address: 28EAEE2C050000D7 Temp C: 17.50
+Device Address: 28DAEC2C050000B9 Temp C: 34.00
+Device Address: 282EE62C050000AA Temp C: 32.50
+Device Address: 2811EE2C0500005D Temp C: 42.50
+Device Address: 2851FE2C05000054 Temp C: 1.00
+Device Address: 2859542D050000F4 Temp C: 19.00
+Device Address: 2839012E050000F8 Temp C: 34.50
+Device Address: 28D7CF2D050000CA Temp C: 36.00
+Device Address: 287FBD2D050000D9 Temp C: 35.50
+Requesting temperatures...DONE
+Device Address: 2874F42D0500003B Temp C: 14.50
+Device Address: 28EAEE2C050000D7 Temp C: 17.50
+Device Address: 28DAEC2C050000B9 Temp C: 34.00
+Device Address: 282EE62C050000AA Temp C: 32.50
+Device Address: 2811EE2C0500005D Temp C: 42.50
+Device Address: 2851FE2C05000054 Temp C: 1.00
+Device Address: 2859542D050000F4 Temp C: 19.00
+Device Address: 2839012E050000F8 Temp C: 34.50
+Device Address: 28D7CF2D050000CA Temp C: 36.00
+Device Address: 287FBD2D050000D9 Temp C: 35.50
+Requesting temperatures...DONE
+Device Address: 2874F42D0500003B Temp C: 14.50
+Device Address: 28EAEE2C050000D7 Temp C: 17.50
+Device Address: 28DAEC2C050000B9 Temp C: 34.00
+Device Address: 282EE62C050000AA Temp C: 32.50
+Device Address: 2811EE2C0500005D Temp C: 42.50
+Device Address: 2851FE2C05000054 Temp C: 1.00
+Device Address: 2859542D050000F4 Temp C: 19.00
+Device Address: 2839012E050000F8 Temp C: 34.50
+Device Address: 28D7CF2D050000CA Temp C: 36.00
+Device Address: 287FBD2D050000D9 Temp C: 35.50
+Requesting temperatures...DONE
+Device Address: 2874F42D0500003B Temp C: 14.50
+Device Address: 28EAEE2C050000D7 Temp C: 17.50
+Device Address: 28DAEC2C050000B9 Temp C: 34.00
+Device Address: 282EE62C050000AA Temp C: 32.50
+Device Address: 2811EE2C0500005D Temp C: 42.50
+Device Address: 2851FE2C05000054 Temp C: 1.00
+Device Address: 2859542D050000F4 Temp C: 19.00
+Device Address: 2839012E050000F8 Temp C: 34.50
+Device Address: 28D7CF2D050000CA Temp C: 36.00
+Device Address: 287FBD2D050000D9 Temp C: 35.50
+Requesting temperatures...DONE
+Device Address: 2874F42D0500003B Temp C: 14.50
+Device Address: 28EAEE2C050000D7 Temp C: 17.50
+Device Address: 28DAEC2C050000B9 Temp C: 34.00
+Device Address: 282EE62C050000AA Temp C: 32.50
+Device Address: 2811EE2C0500005D Temp C: 42.50
+Device Address: 2851FE2C05000054 Temp C: 1.00
+Device Address: 2859542D050000F4 Temp C: 19.00
+Device Address: 2839012E050000F8 Temp C: 34.50
+Device Address: 28D7CF2D050000CA Temp C: 36.00
+Device Address: 287FBD2D050000D9 Temp C: 35.50
+Requesting temperatures...DONE
+Device Address: 2874F42D0500003B Temp C: 14.50
+Device Address: 28EAEE2C050000D7 Temp C: 17.50
+Device Address: 28DAEC2C050000B9 Temp C: 34.00
+Device Address: 282EE62C050000AA Temp C: 32.50
+Device Address: 2811EE2C0500005D Temp C: 42.50
+Device Address: 2851FE2C05000054 Temp C: 1.00
+Device Address: 2859542D050000F4 Temp C: 19.00
+Device Address: 2839012E050000F8 Temp C: 34.50
+Device Address: 28D7CF2D050000CA Temp C: 36.00
+Device Address: 287FBD2D050000D9 Temp C: 35.50
+Requesting temperatures...DONE
+Device Address: 2874F42D0500003B Temp C: 14.50
+Device Address: 28EAEE2C050000D7 Temp C: 17.50
+Device Address: 28DAEC2C050000B9 Temp C: 34.00
+Device Address: 282EE62C050000AA Temp C: 32.50
+Device Address: 2811EE2C0500005D Temp C: 42.50
+Device Address: 2851FE2C05000054 Temp C: 1.00
+Device Address: 2859542D050000F4 Temp C: 19.00
+Device Address: 2839012E050000F8 Temp C: 34.50
+Device Address: 28D7CF2D050000CA Temp C: 36.00
+Device Address: 287FBD2D050000D9 Temp C: 35.50
+Requesting temperatures...DONE
+Device Address: 2874F42D0500003B Temp C: 14.50
+Device Address: 28EAEE2C050000D7 Temp C: 17.50
+Device Address: 28DAEC2C050000B9 Temp C: 34.00
+Device Address: 282EE62C050000AA Temp C: 32.50
+Device Address: 2811EE2C0500005D Temp C: 42.50
+Device Address: 2851FE2C05000054 Temp C: 1.00
+Device Address: 2859542D050000F4 Temp C: 19.00
+Device Address: 2839012E050000F8 Temp C: 34.50
+Device Address: 28D7CF2D050000CA Temp C: 36.00
+Device Address: 287FBD2D050000D9 Temp C: 35.50
+Requesting temperatures...DONE
+Device Address: 2874F42D0500003B Temp C: 14.50
+Device Address: 28EAEE2C050000D7 Temp C: 17.50
+Device Address: 28DAEC2C050000B9 Temp C: 34.00
+Device Address: 282EE62C050000AA Temp C: 32.50
+Device Address: 2811EE2C0500005D Temp C: 42.50
+Device Address: 2851FE2C05000054 Temp C: 1.00
+Device Address: 2859542D050000F4 Temp C: 19.00
+Device Address: 2839012E050000F8 Temp C: 34.50
+Device Address: 28D7CF2D050000CA Temp C: 36.00
+Device Address: 287FBD2D050000D9 Temp C: 35.50
+Requesting temperatures...DONE
+Device Address: 2874F42D0500003B Temp C: 14.50
+Device Address: 28EAEE2C050000D7 Temp C: 17.50
+Device Address: 28DAEC2C050000B9 Temp C: 34.00
+Device Address: 282EE62C050000AA Temp C: 32.50
+Device Address: 2811EE2C0500005D Temp C: 42.50
+Device Address: 2851FE2C05000054 Temp C: 1.00
+Device Address: 2859542D050000F4 Temp C: 19.00
+Device Address: 2839012E050000F8 Temp C: 34.50
+Device Address: 28D7CF2D050000CA Temp C: 36.00
+Device Address: 287FBD2D050000D9 Temp C: 35.50
+Requesting temperatures...DONE
+Device Address: 2874F42D0500003B Temp C: 14.50
+Device Address: 28EAEE2C050000D7 Temp C: 17.50
+Device Address: 28DAEC2C050000B9 Temp C: 34.00
+Device Address: 282EE62C050000AA Temp C: 32.50
+Device Address: 2811EE2C0500005D Temp C: 42.50
+Device Address: 2851FE2C05000054 Temp C: 1.00
+Device Address: 2859542D050000F4 Temp C: 19.00
+Device Address: 2839012E050000F8 Temp C: 34.50
+Device Address: 28D7CF2D050000CA Temp C: 36.00
+Device Address: 287FBD2D050000D9 Temp C: 35.50
+Requesting temperatures...DONE
