@@ -1,2 +1,2 @@
 # energy-reader
-Ready energy from Frer meter
+Reading energy from Frer meter
